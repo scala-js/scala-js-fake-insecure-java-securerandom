@@ -26,7 +26,7 @@ Use [`scalajs-java-securerandom`](https://github.com/scala-js/scala-js-java-secu
 If you have no other choice, use the following dependency:
 
 ```scala
-libraryDependencies += ("org.scala-js" %%% "scalajs-fake-insecure-java-securerandom" % "1.0.0-SNAPSHOT").cross(CrossVersion.for3Use2_13)
+libraryDependencies += ("org.scala-js" %%% "scalajs-fake-insecure-java-securerandom" % "1.0.0").cross(CrossVersion.for3Use2_13)
 ```
 
 When using a `crossProject`, add the above in `.jsSettings(...)`.
