@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        scalaversion: ["2.11.12", "2.12.15", "2.13.8"]
+        scalaversion: ["2.11.12", "2.12.15", "2.13.8", "3.3.0"]
         jsEnvKind: [NodeJS, JSDOMNodeJS, Firefox, Chrome]
 
     steps:
